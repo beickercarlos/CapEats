@@ -1,0 +1,16 @@
+swiper-container {
+    height: 100%;
+    --bullet-background: var(--ion-color-dark);
+    swiper-slide {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .topRight {
+        align-items: initial;
+        justify-content: flex-end;
+    }
+    .transformButton {
+        transform: translateY(95vh);
+    }
+}

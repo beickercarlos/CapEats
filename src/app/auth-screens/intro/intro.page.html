@@ -1,0 +1,31 @@
+<ion-content>
+
+  <swiper-container 
+    [slides]="slides"
+    pager="true"
+    [pagination]="{clickable: true, dynamicBullets: true}">
+
+    <swiper-slide
+    [style.background-image]="'url(assets/imgs/screen1.png)'"
+    class="topRight">
+      <ion-button fill="clear" color="dark" (click)="goToLogin()">Pular</ion-button>
+    </swiper-slide>
+
+    <swiper-slide
+    [style.background-image]="'url(assets/imgs/screen2.png)'"
+    class="topRight">
+      <ion-button fill="clear" color="dark" (click)="goToLogin()">Pular</ion-button>
+    </swiper-slide>
+
+    <swiper-slide
+    [style.background-image]="'url(assets/imgs/screen3.png)'"
+    class="topRight">
+      <ion-button (click)="goToLogin() "shape="round" fill="outline" color="primary"class="transformButton">
+        <ion-text color="primary">Entrar</ion-text>
+      </ion-button>
+    
+    </swiper-slide>
+
+  </swiper-container>
+
+</ion-content>
